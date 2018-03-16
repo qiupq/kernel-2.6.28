@@ -1,0 +1,8 @@
+
+-rw-rw-r-- 1 qpq qpq 44957 Mar 14 13:54 config-0314
+
+
+-rw-rw-r-- 1 qpq qpq 44906 Mar 16 11:09 config-0315
+can bootup with busybox-1.24.1 FS :
+USB 1.1 ;2.0;
+

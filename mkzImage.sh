@@ -6,6 +6,7 @@ echo $1
 export CROSS_COMPILE=arm-linux-
 export PATH=$PATH:/mnt/aaa/HH6410CompileTool/arm-2008q3-real/bin
 export ARCH=arm
+export KBUILD_OUTPUT=/mnt/aaa/6410/s3c-linux-2.6.21/outimage
 make $1 
 #arm-1176-linux-gnueabi-gcc
 #cp arch/arm/boot/zImage /home/tftp-file/

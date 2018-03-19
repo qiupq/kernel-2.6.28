@@ -12,5 +12,5 @@ make $1
 #cp arch/arm/boot/zImage /home/tftp-file/
 #ls -l /home/tftp-file/zImage
 #cp arch/arm/boot/zImage /home/shared/
-cp arch/arm/boot/zImage /home/nfs
+cp $KBUILD_OUTPUT/arch/arm/boot/zImage /home/nfs
 ls -lh /home/nfs/zImage
